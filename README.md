@@ -98,7 +98,7 @@ Originally inspired by the legendary ButtonForge addon created by Alternator.
 
 ButtonForge Classic is a complete Vanilla-oriented recreation with numerous improvements, optimizations, and quality-of-life features for modern Vanilla private servers.
 
-Developed by Aaron Haendschke.
+Developed by Wurmschwanz.
 
 Special thanks to OpenAI's ChatGPT for assisting with development, debugging, testing ideas, and code refinement throughout the project.
 
