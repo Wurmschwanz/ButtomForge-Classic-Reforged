@@ -1,5 +1,11 @@
 # ButtonForge Classic v1.0.0
 
+## Download
+
+Download the latest version from the **Releases** page.
+
+https://github.com/Wurmschwanz/ButtonForge-Classic-Reforged/releases/latest
+
 ## Initial Release
 
 ButtonForge Classic is a complete recreation of the original ButtonForge addon for Vanilla World of Warcraft, specifically designed for Turtle WoW and other 1.12-based servers.
