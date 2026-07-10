@@ -1,4 +1,4 @@
-# ButtomForge-Classic-Reforged
+# ButtonForge-Classic-Reforged
 
 # ButtonForge Classic
 
