@@ -1,4 +1,4 @@
-# ButtonForge Classic v1.0.1
+# ButtonForge Classic v1.0.2
 
 A complete recreation of the original **ButtonForge** addon for **Vanilla World of Warcraft (1.12)**, designed for **Turtle WoW** and other Vanilla-based servers.
 
