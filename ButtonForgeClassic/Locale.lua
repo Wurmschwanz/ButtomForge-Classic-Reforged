@@ -33,6 +33,14 @@ L.SHOW_HIDE_EMPTY = "Show/Hide Empty Slots"
 L.SHOW_EMPTY = "Show Empty Slots"
 L.HIDE_EMPTY = "Hide Empty Slots"
 
+L.TOGGLE_MOUSEOVER = "Toggle Mouseover Bar"
+L.MOUSEOVER_ON = "Mouseover mode enabled."
+L.MOUSEOVER_OFF = "Mouseover mode disabled."
+L.MOUSEOVER_TIP_ON = "Mouseover: ON, hides after"
+L.MOUSEOVER_TIP_OFF = "Mouseover: OFF (always visible)"
+L.MOUSEOVER_DELAY_EXAMPLE = "Example: /bf mouseoverdelay 1.5"
+L.MOUSEOVER_DELAY_SET = "Mouseover delay set to"
+
 L.CONFIG_MODE_ON = "Configure Mode enabled. Controls visible."
 L.CONFIG_MODE_OFF = "Play Mode enabled. Controls hidden."
 

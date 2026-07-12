@@ -158,6 +158,8 @@ function BF:GetDefaultBarSave()
         locked = false,
         hideBackground = false,
         showGrid = false,
+        mouseover = false,
+        mouseoverDelay = 1,
     }
 end
 

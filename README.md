@@ -21,6 +21,7 @@ ButtonForge Classic is a complete recreation of the original ButtonForge addon f
 * Lock and unlock bars
 * Show or hide bar backgrounds
 * Automatically hide empty buttons outside of configuration mode
+* Mouseover mode: bar fades in on hover and fades out after a configurable delay
 
 #### Drag & Drop
 

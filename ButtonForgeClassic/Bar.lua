@@ -62,6 +62,8 @@ function BF:CreateBar(save)
     bar:SetScript("OnEnter", function()
         BF:SetActiveBar(this)
         BF:SetBarHover(this, true)
+        this.mouseoverHovered = true
+        this.mouseoverHideAt = nil
         -- In play mode, do not show empty slots just because the mouse hovers
         -- over a bar. Empty slots should only appear while the player is
         -- actively dragging/swapping something.
@@ -84,6 +86,7 @@ function BF:CreateBar(save)
 
     bar:SetScript("OnLeave", function()
         BF:SetBarHover(this, false)
+        this.mouseoverHovered = false
         GameTooltip:Hide()
     end)
 
@@ -130,6 +133,7 @@ function BF:LoadBars()
     for i = 1, table.getn(ButtonForgeClassicDB.bars) do
         self:CreateBar(ButtonForgeClassicDB.bars[i])
     end
+    self:RefreshMouseoverTicker()
 end
 
 function BF:ListBars()
@@ -431,6 +435,15 @@ function BF:UpdateControlButtonVisuals(bar)
             gridButton.tip = self:T("SHOW_EMPTY")
         end
     end
+
+    local moButton = bar.controls[11]
+    if moButton then
+        if bar.save and bar.save.mouseover then
+            moButton.tip = self:T("MOUSEOVER_TIP_ON") .. " " .. tostring(bar.save.mouseoverDelay or 1) .. "s"
+        else
+            moButton.tip = self:T("MOUSEOVER_TIP_OFF")
+        end
+    end
 end
 
 function BF:CreateControlsForBar(bar)
@@ -477,6 +490,10 @@ function BF:CreateControlsForBar(bar)
         BF:SetActiveBar(this.parentBar)
         BF:ToggleBarGrid(this.parentBar)
     end, img .. "GridOff.tga"))
+    table.insert(bar.controls, self:CreateControlButton(bar, "M", self:T("TOGGLE_MOUSEOVER"), function()
+        BF:SetActiveBar(this.parentBar)
+        BF:ToggleBarMouseover(this.parentBar)
+    end))
 
     self:UpdateControlButtonVisuals(bar)
     self:LayoutControlsForBar(bar)
@@ -553,6 +570,7 @@ function BF:DeleteActiveBar()
     if self.Bars and table.getn(self.Bars) > 0 then
         self:SetActiveBar(self.Bars[table.getn(self.Bars)])
     end
+    self:RefreshMouseoverTicker()
     self:Print(name .. " deleted.")
 end
 
@@ -634,3 +652,4 @@ function BF:ToggleAllBarBackgrounds()
 end
 
 -- Right-click menu intentionally disabled in v0.3.13.
+-- Mouseover bar logic (fade in/out, ticker) lives in Mouseover.lua.

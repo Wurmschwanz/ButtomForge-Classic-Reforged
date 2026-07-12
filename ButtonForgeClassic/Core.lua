@@ -42,6 +42,8 @@ function BF:PrintHelp()
     self:Print("/bf bg - toggle active bar background")
     self:Print(self:T("TOGGLE_ALL_BG_HELP"))
     self:Print("/bf grid - toggle active bar empty slots")
+    self:Print("/bf mouseover - toggle mouseover mode for active bar")
+    self:Print("/bf mouseoverdelay 1.5 - set mouseover hide delay in seconds")
     self:Print("/bf slots - show internal Vanilla slots")
     self:Print("/bf reset - reset settings")
 end
@@ -84,6 +86,10 @@ SlashCmdList["BUTTONFORGECLASSIC"] = function(msg)
         end
     elseif cmd == "grid" then
         BF:ToggleBarGrid(BF:GetActiveBar())
+    elseif cmd == "mouseover" or cmd == "mo" then
+        BF:ToggleActiveBarMouseover()
+    elseif cmd == "mouseoverdelay" or cmd == "modelay" then
+        BF:SetActiveBarMouseoverDelay(a)
     elseif cmd == "slots" then
         BF:Print("ButtonForge Classic uses Vanilla ActionSlots " .. tostring(BF.ActionSlotStart) .. " to " .. tostring(BF.ActionSlotEnd) .. ".")
         local i
