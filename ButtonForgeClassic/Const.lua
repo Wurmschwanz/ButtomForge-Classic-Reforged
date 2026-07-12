@@ -1,7 +1,7 @@
 -- ButtonForge Classic - constants for Vanilla 1.12
 local BF = BFClassic
 
-BF.Version = "1.0.0"
+BF.Version = "1.0.1"
 BF.AddonName = "ButtonForgeClassic"
 BF.Title = "ButtonForge Classic"
 

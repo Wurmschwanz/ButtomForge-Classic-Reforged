@@ -1,4 +1,4 @@
-ButtonForge Classic v1.0.0
+ButtonForge Classic v1.0.1
 
 For Turtle WoW / Vanilla 1.12.
 
@@ -14,6 +14,13 @@ Basic commands:
 /bf unlock    Unlock active bar
 /bf delete    Delete active bar
 /bf reset     Reset settings
+/bf mouseover        Toggle mouseover mode for active bar
+/bf mouseoverdelay 1.5  Set mouseover hide delay (seconds)
+
+v1.0.1:
+- New mouseover bar mode: fades in on hover, fades out after a per-bar,
+  configurable delay (default 1s). Bar stays clickable while faded out.
+- Config Mode, Keybind Mode and active drag/drop keep bars fully visible.
 
 v0.3.21:
 - Centralized visible UI strings in Locale.lua.

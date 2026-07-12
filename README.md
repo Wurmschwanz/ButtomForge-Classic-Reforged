@@ -1,4 +1,4 @@
-# ButtonForge Classic v1.0.0
+# ButtonForge Classic v1.0.1
 
 ## Download
 
