@@ -1,47 +1,60 @@
 # ButtonForge Classic v1.0.1
 
-## Download
+A complete recreation of the original **ButtonForge** addon for **Vanilla World of Warcraft (1.12)**, designed for **Turtle WoW** and other Vanilla-based servers.
 
-Download the latest version from the **Releases** page.
+---
 
-https://github.com/Wurmschwanz/ButtonForge-Classic-Reforged/releases/latest
+## 📥 Download
 
-## Initial Release
+Download the latest release here:
 
-ButtonForge Classic is a complete recreation of the original ButtonForge addon for Vanilla World of Warcraft, specifically designed for Turtle WoW and other 1.12-based servers.
+➡️ https://github.com/Wurmschwanz/ButtonForge-Classic-Reforged/releases/latest
 
-### Features
+---
 
-#### Action Bars
+# ✨ Features
+
+## 🎯 Action Bars
 
 * Create fully customizable action bars
-* Freely move and position bars
-* Adjustable rows and columns
-* Adjustable button scale
-* Lock and unlock bars
-* Show or hide bar backgrounds
-* Automatically hide empty buttons outside of configuration mode
-* Mouseover mode: bar fades in on hover and fades out after a configurable delay
+* Freely move and position bars anywhere on the screen
+* Adjustable rows, columns, and button scale
+* Lock or unlock bars
+* Optional bar backgrounds
+* Automatically hide unused buttons outside configuration mode
+* Mouseover mode with configurable fade-in and fade-out
 
-#### Drag & Drop
+---
+
+## 🖱️ Drag & Drop
 
 * Drag spells directly from the spellbook
-* Drag items from bags
+* Drag items from your bags
 * Drag macros from the macro window
-* Drag actions onto empty slots
+* Place actions onto empty slots
 * Stable internal action swapping
 * Reliable drag & drop without Blizzard cursor issues
 
-#### Keybinding
+---
+
+## ⌨️ Keybindings
 
 * Built-in Keybinding Mode
 * Character-specific keybindings
-* Supports keyboard, mouse wheel, middle mouse, Mouse Button 4 and Mouse Button 5
-* Left and Right Mouse Buttons are protected from accidental binding
-* Keybindings remain attached to button positions during swaps
-* Improved keybinding abbreviations (MM, M4, M5, MWU, MWD)
+* Supports:
 
-#### Blizzard-style Button Behavior
+  * Keyboard
+  * Mouse Wheel
+  * Middle Mouse Button
+  * Mouse Button 4
+  * Mouse Button 5
+* Protects Left and Right Mouse Buttons from accidental binding
+* Keybindings stay attached to button positions when swapping actions
+* Improved hotkey abbreviations (`MM`, `M4`, `M5`, `MWU`, `MWD`)
+
+---
+
+## ⚔️ Blizzard-Style Button Behavior
 
 * Blizzard cooldown spiral
 * Global Cooldown (GCD) support
@@ -49,41 +62,49 @@ ButtonForge Classic is a complete recreation of the original ButtonForge addon f
 * Item cooldowns
 * Range indicator
 * Out of Mana indicator
-* Stack count support
+* Stack count display
 * Missing consumables are automatically grayed out
 * Proper handling of consumables and non-stackable items
 
-#### User Interface
+---
+
+## 🖥️ User Interface
 
 * Minimap button
-* Context menu for each action bar
+* Context menu for every action bar
 * Fully English interface
 * Lightweight configuration mode
 * Improved tooltips
 
-#### Performance
+---
+
+## 🚀 Performance
 
 * Event-driven updates
 * Optimized range checks
 * Low CPU usage
 * High FPS friendly
 
-### Improvements
+---
+
+# 🔧 Improvements
 
 * Reworked internal action slot management
-* Improved drag & drop reliability
-* Improved swap stability
-* Improved empty slot handling
+* More reliable drag & drop system
+* Improved action swapping
+* Better empty slot handling
 * Improved hotkey display
-* Improved macro support
+* Enhanced macro support
 * Improved item handling
-* Improved visual feedback
+* Better visual feedback
 * Multiple performance optimizations
 
-### Bug Fixes
+---
+
+# 🐞 Bug Fixes
 
 * Fixed unstable drag & drop behavior
-* Fixed occasional swap failures
+* Fixed occasional action swap failures
 * Fixed disappearing empty slots
 * Fixed button click issues
 * Fixed keybinding persistence
@@ -94,6 +115,10 @@ ButtonForge Classic is a complete recreation of the original ButtonForge addon f
 * Fixed range indicator responsiveness
 * Fixed various UI and localization issues
 
-Thank you to everyone testing and providing feedback.
+---
 
-Enjoy ButtonForge Classic!
+## ❤️ Thank You
+
+Thank you to everyone who tested the addon and provided valuable feedback.
+
+Enjoy **ButtonForge Classic**!
