@@ -1,0 +1,19 @@
+## Interface: 11200
+## Title: ButtonForge Classic
+## Author: Alternator / Vanilla port by ChatGPT & Aaron
+## Version: 0.5.11
+## Notes: Vanilla/Turtle WoW compatible ButtonForge-style action bar addon.
+## SavedVariables: ButtonForgeClassicDB
+## SavedVariablesPerCharacter: ButtonForgeClassicCharDB
+
+Declares.lua
+Const.lua
+Util.lua
+Locale.lua
+Core.lua
+Minimap.lua
+Keybind.lua
+Bar.lua
+Button.lua
+
+Bindings.xml
