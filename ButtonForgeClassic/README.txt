@@ -1,4 +1,4 @@
-ButtonForge Classic v0.3.21 Alpha
+ButtonForge Classic v1.0.0
 
 For Turtle WoW / Vanilla 1.12.
 
